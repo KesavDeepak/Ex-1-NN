@@ -79,6 +79,21 @@ print(y_test.shape)
 ## OUTPUT:
 <img width="1356" height="223" alt="image" src="https://github.com/user-attachments/assets/4d81ed77-7c51-4f5a-ab12-3f8e6f7242b8" />
 
+<img width="174" height="587" alt="image" src="https://github.com/user-attachments/assets/ecdbb5b8-52ad-42f8-9f6b-095c29e76572" />
+
+<img width="186" height="506" alt="image" src="https://github.com/user-attachments/assets/d823537c-5334-48b8-af58-2da5cc2999b0" />
+
+<img width="1401" height="310" alt="image" src="https://github.com/user-attachments/assets/8eadda4f-742a-4b53-b754-f2b627d371a6" />
+
+<img width="417" height="419" alt="image" src="https://github.com/user-attachments/assets/e7305138-51e1-48fd-af64-fa5f9beeeff7" />
+
+<img width="574" height="269" alt="image" src="https://github.com/user-attachments/assets/f7f31def-b302-4dda-9c27-25e5849bb93f" />
+
+<img width="630" height="259" alt="image" src="https://github.com/user-attachments/assets/f4b58dd2-e02a-4e36-93a5-9b54cfa24b4b" />
+
+<img width="278" height="34" alt="image" src="https://github.com/user-attachments/assets/8f63c636-7714-48f3-9ab8-a251de72b509" />
+
+<img width="189" height="106" alt="image" src="https://github.com/user-attachments/assets/fb69299d-56f0-4871-86ac-bb8bb1c4598c" />
 
 
 ## RESULT:
