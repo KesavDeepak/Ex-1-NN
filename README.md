@@ -1,7 +1,7 @@
-<H3>ENTER YOUR NAME</H3>
-<H3>ENTER YOUR REGISTER NO.</H3>
+<H3>ENTER YOUR NAME: KESAV DEEPAK SRIDHARAN</H3>
+<H3>ENTER YOUR REGISTER NO. : 212223230104</H3>
 <H3>EX. NO.1</H3>
-<H3>DATE</H3>
+<H3>DATE: </H3>
 <H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
 
 ## AIM:
@@ -37,11 +37,48 @@ STEP 5:Normalizing the data<BR>
 STEP 6:Splitting the data into test and train<BR>
 
 ##  PROGRAM:
-TYPE YOUR CODE HERE
+```
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+
+df = pd.read_csv("/content/Churn_Modelling.csv")
+df.head()
+
+df.isnull().sum()
+
+df.duplicated()
+
+df.describe()
+
+df.info()
+
+encoder = LabelEncoder()
+df['Gender'] = encoder.fit_transform(df['Gender'])
+df['Geography'] = encoder.fit_transform(df['Geography'])
+df['Surname'] = encoder.fit_transform(df["Surname"])
+
+scaler = StandardScaler()
+scaler.fit_transform(df)
+
+X=df.iloc[:,:-1].values
+X
+
+y=df.iloc[:,-1].values
+y
+
+x_train,x_test,y_train,y_test = train_test_split(X,y,test_size = 0.2,random_state = 42)
+print(x_train.shape)
+print(x_test.shape)
+print(y_train.shape)
+print(y_test.shape)
+```
 
 
 ## OUTPUT:
-SHOW YOUR OUTPUT HERE
+<img width="1356" height="223" alt="image" src="https://github.com/user-attachments/assets/4d81ed77-7c51-4f5a-ab12-3f8e6f7242b8" />
+
 
 
 ## RESULT:
